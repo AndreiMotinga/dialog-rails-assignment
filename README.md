@@ -1,4 +1,4 @@
-DialogEDU technical screening excercise for rails developer.
+DialogEDU technical screening exercise for rails developer.
 
 NOTE: treat this as more of a fizzbuzz type of coding question rather than real world application. That being said we're interested to see clean well tested code.
 
