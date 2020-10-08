@@ -6,25 +6,25 @@ NOTE: treat this as more of a fizzbuzz type of coding question rather than real 
 Develop a simple RESTful rails API blog with 2 models: articles and comments.
   endpoints should include:
 
-  GET /articles
-  GET /articles?search=foo
-    should filter article to only those containing string 'foo'
-  GET /articles/:id
-  POST /articles
-    it should validate presence of title and body
-    it should validate that title is at least 10 characters long
-  PUT /articles
-    same as POST
-  DELETE /articles/:id
+    GET /articles
+    GET /articles?search=foo
+      should filter article to only those containing string 'foo'
+    GET /articles/:id
+    POST /articles
+      it should validate presence of title and body
+      it should validate that title is at least 10 characters long
+    PUT /articles
+      same as POST
+    DELETE /articles/:id
 
-  GET /comments
-  GET /comments?article_id=1
-    should filter comments by specific article
-  GET /comments/:id
-  POST /comments
-    it should validate presence of necceary attributes
-  PUT /comments
-  DELETE /comments/:id
+    GET /comments
+    GET /comments?article_id=1
+      should filter comments by specific article
+    GET /comments/:id
+    POST /comments
+      it should validate presence of necceary attributes
+    PUT /comments
+    DELETE /comments/:id
 
 This is very basic rails app, so in case you have questions use your best judgment.
 
